@@ -1,0 +1,301 @@
+.barra-navigazione {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.fa-navicon:before {
+  font-size: 2.1em;
+}
+
+@media (min-width: 575px) {
+  #section-mobile {
+    display: none;
+  }
+}
+
+#alzabandiera-bg {
+  display: none;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  #alzabandiera-bg {
+    display: inline;
+  }
+}
+
+@media (max-width: 991px) {
+  #section-larger-devices {
+    display: none;
+  }
+}
+
+#section-mobile {
+  background-image: url("../../assets/img/alzabandiera.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 4em;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 2.7em;
+  }
+}
+
+.come-raggiungerci h3 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Lora';
+  line-height: 1.7em;
+  font-size: 1em;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.come-raggiungerci ol {
+  font-family: 'Lora';
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin: 0;
+  color: white;
+  list-style-position: inside;
+}
+
+.come-raggiungerci li {
+  padding-top: 15px;
+}
+
+#logo-footer {
+  width: 125px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .col {
+  line-height: 0.5;
+}
+
+footer h3 {
+  font-size: 1.1em;
+}
+
+footer .col {
+  padding: 0;
+}
+
+.icon-2 {
+  line-height: 8;
+}
+
+.text-2 {
+  line-height: 11;
+}
+
+#col-right {
+  text-align: center;
+}
+
+#col-left {
+  text-align: center;
+}
+
+.fas.fa-phone, .fa-envelope, .fa-phone-alt, .fa-facebook-f {
+  font-size: 1.3em;
+  color: #17a2b8;
+}
+
+@media (min-width: 300px) {
+  .col #logo-footer {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.col.col-3.col-second {
+  text-align: right;
+}
+
+.copyright {
+  text-align: center;
+  color: #656565;
+  font-size: .8em;
+}
+
+#navbar-logo {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  width: 100px;
+  top: 0;
+}
+
+@media (max-width: 767.5px) {
+  #Subiaco1 {
+    padding-top: 30px;
+  }
+}
+
+.section-footer {
+  background-color: white;
+}
+
+.nav-item a {
+  font-size: 1.2em;
+}
+
+.calendar-section {
+  background-color: #7d9da2;
+}
+
+.calendar-container {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.carousel-section {
+  background-color: #9da27d;
+}
+
+@media (max-width: 992px) {
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.chisiamo-section {
+  background-color: #a27d9d;
+}
+
+.cool-red {
+  background-color: rgb(191,114,114);
+}
+
+.cool-green {
+  background-color: rgb(128,160,131);
+}
+
+.cool-brown {
+  background-color: rgb(201,165,111);
+}
+
+.spazio-branche {
+  padding-top: 100px;
+}
+
+.spazio-branche h2 {
+  padding-top: 65px;
+}
+
+.spazio-branche p {
+  padding-bottom: 45px;
+}
+
+.come-raggiungerci {
+  background-color: #7d9da2;
+}
+
+.contact-clean .container-menu {
+  padding-left: 30px;
+  padding-bottom: 25px;
+}
+
+.come-raggiungerci p {
+  font-size: 1.1em;
+}
+
+.come-raggiungerci .fa.fa-map-marker {
+  color: #ff958f;
+}
+
+.footer-links {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  footer .fas.fa-phone-alt, .fa.fa-envelope, .fas.fa-phone, .fab.fa-facebook-f {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .fa.fa-envelope, .fab.fa-facebook-f {
+    line-height: 11;
+  }
+}
+
+.footer-bg {
+  background-color: white;
+}
+
+.documents-title {
+  padding-top: 60px;
+}
+
+@media (min-width: 768px) {
+  .documents-title {
+    padding-top: 40px;
+  }
+}
+
+.documents-list {
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+  font-family: "Lora", serif;
+  line-height: 2em;
+  font-size: 1.3em;
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.documents-list a {
+  font-size: 1em;
+}
+
+.documents-section {
+  width: 100%;
+  height: 90vh;
+  background-color: #a27d9d;
+}
+
+.container-list-documents {
+  height: 70vh;
+}
+
+.documents-list li::marker {
+  content: "\1F4C4";
+  font-size: 1.2em;
+}
+
